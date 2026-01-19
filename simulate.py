@@ -1,3 +1,4 @@
 import pybullet as p
 
-# wor
+physicsClient = p.connect(p.GUI)
+p.disconnect()
